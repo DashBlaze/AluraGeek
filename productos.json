@@ -1,0 +1,47 @@
+{
+  "productos": [
+    
+    {
+      "id": "38ec",
+      "nombre": "POP! LUFFY (UPPERCUT)",
+      "precio": "15",
+      "imagenUrl": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw20a94e49/images/funko/upload/77959_OP_LuffyUppercutMT_POP_GLAM-WEB.png?sw=800&sh=800"
+    },
+    {
+      "id": "7eb3",
+      "nombre": "POP! PORTGAS. D. ACE",
+      "precio": "12",
+      "imagenUrl": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw5299ca28/images/funko/6358-1.png?sw=800&sh=800"
+    },
+    {
+      "id": "56e9",
+      "nombre": "POP! TONYTONY. CHOPPER",
+      "precio": "12",
+      "imagenUrl": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw23d31140/images/funko/5304-1.png?sw=800&sh=800"
+    },
+    {
+      "id": "92a1",
+      "nombre": "POP! ONAMI IN WANO OUTFIT",
+      "precio": "12",
+      "imagenUrl": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwff8caa30/images/funko/upload/72107-POP-Animation-One-Piece---Onami_GLAM-WEB.png?sw=800&sh=800"
+    },
+    {
+      "id": "6bb8",
+      "nombre": "POP! RORONOA ZORO",
+      "precio": "12",
+      "imagenUrl": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw236b5bb4/images/funko/54462-1.png?sw=800&sh=800"
+    },
+    {
+      "id": "f84e",
+      "nombre": "POP! SANGORO IN WANO OUTFIT",
+      "precio": "12",
+      "imagenUrl": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dwd0155ba7/images/funko/upload/72108-POP-Animation-One-Piece---Sangoro_GLAM-WEB.png?sw=800&sh=800"
+    },
+    {
+      "id": "c177",
+      "nombre": "POP! USOHACHI IN WANO OUTFIT",
+      "precio": "12",
+      "imagenUrl": "https://funko.com/dw/image/v2/BGTS_PRD/on/demandware.static/-/Sites-funko-master-catalog/default/dw608a7621/images/funko/upload/72109-POP-Animation-One-Piece---Usohachi_GLAM-WEB.png?sw=800&sh=800"
+    }
+  ]
+}

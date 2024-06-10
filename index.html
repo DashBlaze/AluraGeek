@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>❤️❤️❤️ AluraGeek</h1>
+    </header>
+    <main>
+        <div class="contenedor-formulario">
+            <form id="formulario-agregar-producto" class="formulario-agregar-producto">
+                <input type="text" id="nombre-producto" placeholder="Nombre del Producto" required>
+                <input type="number" id="precio-producto" placeholder="Precio del Producto" required>
+                <input type="url" id="url-imagen-producto" placeholder="URL de la Imagen" required>
+                <div class="botones">
+                    <button type="submit">Agregar Producto</button>
+                    <button type="button" id="limpiar-formulario">Limpiar</button>
+                </div>
+            </form>
+        </div>
+        <div id="lista-productos" class="lista-productos"></div>
+    </main>
+    <footer class="footer">
+        <p>❤️❤️❤️ AluraGeek<br>Desarrollado por Joshua Gonzalez<br>Alura Latam - 2024</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

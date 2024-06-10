@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.header, .footer {
+    background-color: #6A0DAD;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.header h1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer{
+    font-size: x-small;
+    line-height: 1.5;
+}
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.formulario-agregar-producto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 400px;
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-agregar-producto input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario-agregar-producto button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario-agregar-producto button[type="submit"] {
+    background-color: #6A0DAD;
+    color: white;
+}
+
+.formulario-agregar-producto button[type="button"] {
+    background-color: #ccc;
+    color: #333;
+}
+
+.lista-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 150px; /* altura fija para todas las imágenes */
+    border-radius: 8px;
+}
+
+.card-container--info {
+    margin-top: 0.5rem;
+}
+
+.card-container--value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.eliminar {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.eliminar:hover {
+    background-color: #ff1c1c;
+}
+
+/* estilos responsivos */
+@media (max-width: 600px) {
+    .formulario-agregar-producto {
+        padding: 1rem;
+        margin: 0 1rem;
+    }
+
+    .card {
+        width: calc(100% - 2rem);
+        margin: 1rem;
+    }
+
+    .lista-productos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
